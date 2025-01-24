@@ -10,7 +10,7 @@ int main(void){
 // 例2. C语言基本语法格式:
 1.单行注释: // 添加注释
 在每一行中,在//后面的内容自动无视,不管//出现在哪里.
-// ...
+printf("Hello World!")（有用）// ...printf("Hello World!");（无用）
 
 2.每句可执行语句后面有一个分号
 printf("Hello World!"); // 正确的语句
