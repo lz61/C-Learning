@@ -17,3 +17,4 @@ scanf("%2d",&x); // 输入: 1234
 // 与printf对比: printf是至少输出t位. scanf是至多读t位.
 ```
 
+记得教学: git用法与git pull.
