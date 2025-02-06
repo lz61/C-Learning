@@ -1,5 +1,7 @@
 1.scanf初识
 
+scanf实例1:
+
 ```
 #include <stdio.h>
 int main(void){
