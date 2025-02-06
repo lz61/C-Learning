@@ -1,4 +1,4 @@
-1.第一个C语言程序:hello world
+1.第一个C语言程序: 输出hello world
 
 ```
 #include <stdio.h>
@@ -6,6 +6,8 @@ int main(void){
 	printf("Hello World!");
 }
 ```
+
+
 
 2.C语言基本语法格式:
 
