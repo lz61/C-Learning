@@ -1,7 +1,7 @@
 ```
 // 例1: printf实例
 #include <stdio.h>
-int main(void){
+int main(){
 	printf("Hello World!");
 }
 

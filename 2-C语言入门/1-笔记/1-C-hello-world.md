@@ -2,7 +2,7 @@
 
 ```
 #include <stdio.h>
-int main(void){
+int main(){
 	printf("Hello World!");
 }
 ```
@@ -44,7 +44,7 @@ C.多行注释:
 
 D.规律之一: 大部分右大括号后面都没有分号,除了结构体以外.
 
-
+E.C语言会逐行执行代码.
 
 练习:
 

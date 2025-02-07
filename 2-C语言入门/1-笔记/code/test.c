@@ -1,6 +1,12 @@
 #include <stdio.h>
-int main(void){
-    if(!0.1){
-        printf("bad");
-    }
+test(){
+    printf("Hello World!");
+}
+int main() {
+    int a = 5;
+    int b = 2;
+    int c = a %= b;
+    printf("a = %d, c = %d\n", a, c);
+    test();
+    return 0;
 }
