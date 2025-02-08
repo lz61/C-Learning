@@ -17,7 +17,7 @@ A.单行注释:
 // 添加注释
 在每一行中,在//后面的内容自动无视,不管//出现在哪里.
 实例:
-printf("Hello World!")（有用）// ...printf("Hello World!");（无用）
+printf("Hello World!");// ...printf("Hello World!");（无用）
 ```
 
 

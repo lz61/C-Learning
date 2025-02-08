@@ -9,10 +9,8 @@ int x;
 scanf("%d",&x);
 if(x>0){
 	printf("1");
-} // 注意: 不用加分号
+} // 注意: }后面不用加分号
 ```
-
-
 
 
 
@@ -133,9 +131,11 @@ int main(void){
 	}
 	else if(hour<=50){
 		payment = hour * 3;
+		// 刚开始的写法:
+		// payment = (hour-10)*3+30;
 	}
 	else{
-		payment = hour * 2.5;
+		payment = 150+(hour-50) * 2.5;
 	}
 	printf("总的上网费用为%f",payment);
 }
@@ -171,11 +171,14 @@ switch(待判断变量){
 
 ```
 int x = 1;
+int y=1;
 switch(x){
-	case 1:
+	case y:
 		printf("x=1\n");
+		break;
 	case 2:
 		printf("x=2\n");
+		break;
 	default:
 		printf("x is not equal to 1 and not equal to 2\n");
 }
